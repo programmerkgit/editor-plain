@@ -1,0 +1,41 @@
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  color: rgba(55, 53, 47, 0.15);
+}
+
+body {
+  font-family: inter, Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  color: rgb(55, 53, 47);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  line-height: 1.2;
+  font-size: 2.5rem;
+  padding: 2px;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.header {
+}
+.title:focus {
+  outline: none;
+}
+
+.column-container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100%;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
