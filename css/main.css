@@ -36,6 +36,12 @@ body {
 }
 
 .main {
+  position: relative;
+  margin-top: 3rem;
+  padding: 2px;
   flex-grow: 1;
   flex-shrink: 0;
+}
+.main div {
+  user-select: all;
 }
